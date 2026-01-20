@@ -117,7 +117,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="text-secondary/80 leading-relaxed">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
               <p className="font-bold text-secondary">— {testimonial.name}</p>
             </motion.div>
